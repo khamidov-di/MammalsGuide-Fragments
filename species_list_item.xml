@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/iv_species_list_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:padding="5dp"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_species_list_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:paddingStart="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_species_list_latin_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="1dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="15sp"
+                android:textColor="#666"
+                android:paddingStart="10dp"
+                android:textStyle="italic"
+                />
+            <TextView
+                android:id="@+id/tv_species_list_second_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="1dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="12sp"
+                android:textColor="#666"
+                android:paddingStart="10dp"
+                />
+    </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ib_audio"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="#FFF"
+            />
+    </LinearLayout>
+</FrameLayout>

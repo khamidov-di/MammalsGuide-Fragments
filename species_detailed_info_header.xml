@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_species_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textStyle="normal"
+        android:background="#EEE8AA"/>
+
+    <ImageView
+        android:id="@+id/iv_photo_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        />
+    <ImageView
+        android:id="@+id/iv_draw_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_species_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9370DB"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/text_default"
+        />
+    <TextView
+        android:id="@+id/tv_species_family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDA0DD"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/text_default"
+        />
+    <TextView
+        android:id="@+id/tv_species_genus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D8BFD8"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/text_default"
+        />
+
+</LinearLayout>
